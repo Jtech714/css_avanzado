@@ -1,0 +1,25 @@
+/* SELECTOR POR ATRIBUTO */
+img[src$=".png"] {
+    width: 100%;
+}
+/* SELECTOR DESCENDIENTE */
+ul li {
+    color: blueviolet;
+}
+ul strong {
+    color: red;
+}
+/* SELECTOR POR HIJO DIRECTO */
+li > em {
+    color:blue ;
+}
+/* SELECTOR ADYACENTE */
+h1 + p {
+    font-size: 1.5rem;
+    color: green;
+}
+/* SELECTOR GENERAL */
+h2 ~ p {
+    font-size: 1.2rem;
+    color: orange;
+}
